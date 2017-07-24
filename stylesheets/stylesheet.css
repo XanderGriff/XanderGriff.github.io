@@ -468,6 +468,6 @@ Font Styles
 *******************************************************************************/
 @font-face {
   font-family: 'HK-Grotesk';
-  src: url('fonts/HKGrotesk-Regular.woff') format('woff');
+  src: url('../fonts/HKGrotesk-Regular.woff') format('woff');
 }
 
