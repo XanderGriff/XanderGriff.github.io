@@ -7,7 +7,8 @@ Updated 24/07/2017
 
 /*******************************************************************************
 MeyerWeb Reset - Go to the following link to read more about it. Super cool 
-stuff going on here
+stuff going on here. Basically resets all presets from html elements so you
+can customize behaviour as you see fit. Fun!
 
 https://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/
 *******************************************************************************/
@@ -79,8 +80,9 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3.8rem;
   font-weight: 700;
+  line-height: 135%;
 }
 
 a {
@@ -99,6 +101,8 @@ a {
   -ms-transition: color 0.5s ease;
   -ms-transition: text-shadow 0.5s ease;
 }
+
+a:hover, a:focus {opacity: 0.5;}
 
 
 
