@@ -72,11 +72,12 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color: #222222;
+  color: #343F3E;
   background: #D3D3D3;
   font-size: 16px;
   font-family: 'HK-Grotesk', Fallback, sans-serif;
   line-height: 150%;
+  position: absolute;
 }
 
 h1 {
@@ -87,7 +88,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #343F3E;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -102,9 +103,32 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-a:hover, a:focus {opacity: 0.5;}
+a:hover, a:focus {
+  text-decoration: underline;
+  text-decoration-color: #FCFF6C;
+}
 
+/*******************************************************************************
+Header Styles
+*******************************************************************************/
 
+.header                 {     width: auto;
+                              float: left;
+                              width: 100%;
+                              margin-top: 1.4rem; 
+  
+}
+.header a               {     float: right;
+                              margin-left: 2.4rem;
+                              margin-right: 1.0rem;
+                              font-weight: 600;
+}
+
+.main                       { margin: 3.6rem 5rem 0px;
+                              padding: 10.4rem 0px 5rem;
+                              height: auto;
+                              width: 100%;
+                              max-width: 1440px; }
 
 /*
 body {
