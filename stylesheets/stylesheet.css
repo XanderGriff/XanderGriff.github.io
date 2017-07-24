@@ -74,8 +74,15 @@ body {
   color: #222222;
   background: #D3D3D3;
   font-size: 16px;
+  font-family: 'HK-Grotesk', Fallback, sans-serif;
   line-height: 150%;
 }
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
 
 
 /*
@@ -455,3 +462,12 @@ Small Device Styles
 
 }
 */
+
+/*******************************************************************************
+Font Styles
+*******************************************************************************/
+@font-face {
+  font-family: 'HK-Grotesk';
+  src: url('fonts/HKGrotesk-Regular.woff') format('woff');
+}
+
