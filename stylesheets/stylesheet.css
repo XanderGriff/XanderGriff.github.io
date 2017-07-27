@@ -75,8 +75,8 @@ Theme Styles
 }
 
 body {
-  color: #343F3E;
-  background: #D3D3D3;
+  color: #D8E9F3;
+  background: #4B90BC;
   font-size: 16px;
   font-family: 'HK-Grotesk', Fallback, sans-serif;
   line-height: 150%;
@@ -90,7 +90,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #343F3E;
+  color: #FCFF6C;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -122,6 +122,7 @@ Header Styles
                               margin-left: 5rem;
                               margin-right: 2.4rem;
                               font-weight: 600;
+                              color: #D8E9F3;
 }
 
 .main                       { margin: 3.6rem 5rem 0px;
